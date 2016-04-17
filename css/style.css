@@ -1,0 +1,224 @@
+body{
+font-size: 18px;
+line-height: 1.5;
+font-family: "Roboto", sans-serif;
+font-weight: 650;
+color: rgba(0,0,0,0.87);
+}
+footer{
+	margin-top: 100px;
+
+}
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		margin:0;
+		padding:0;
+	}
+	h2{
+		font-size: 2em;
+		margin: 0 0 18px 0;
+		font-family: arial,helvetica;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+
+		overflow: hidden;
+	}
+
+
+	/* Common styles
+	* --------------------------------------- */
+	img{
+	    -webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+
+
+	/* Section 1
+	* ---------------------------------------
+
+
+
+	#iphone3 {
+    margin-left: -295%;
+
+	}
+
+	@media (max-width: 1200px) {
+		#iphone3.active{
+			-webkit-transform: translate3d(206%, 0px, 0px);
+			-moz-transform: translate3d(206%, 0px, 0px);
+			-ms-transform:translate3d(206%, 0px, 0px);
+			transform: translate3d(206%, 0px, 0px);
+
+		}
+	}
+
+	@media (max-width: 500px) {
+		#iphone3.active{
+			-webkit-transform: translate3d(106%, 0px, 0px);
+			-moz-transform: translate3d(106%, 0px, 0px);
+			-ms-transform:translate3d(106%, 0px, 0px);
+			transform: translate3d(106%, 0px, 0px);
+
+		}
+	}
+*/
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(../imgs/portada.png);
+		/*padding: 12% 0 0 0;*/
+		 opacity: 0.9;
+		 top: 0; bottom: 0; left: 0; right: 0;
+		background-position: center top !important;
+		background-size: cover !important;
+		background-attachment: fixed !important;
+		color: #fff;
+		margin: 0;
+		position: relative;
+		width: 100%;
+
+
+
+	}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		opacity: 0.4;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		 /*background-image: /* our video ;*/
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 34%;
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	/* Enrique Hormilla codigo añadido :)
+	* --------------------------------------- */
+	.negrita{
+		font-weight: bold !important;
+	}
+	.colorBase{
+		color: #b71c1c !important;
+	}
+	#tituloSection1{
+		font-size: 40px !important;
+	}
+	.margenTopL{
+		margin-top: 0% !important;
+	}
+	.icono {
+    font-size: 7rem;
+    display: block;
+	}
+	#section2 .icono{
+	display: none;
+	position: absolute;
+	right: 43%;
+	top: 0%;
+
+	}
+	.TextoCaption{
+		font-size: 8rem;
+	}
+	.containerS{
+		width: 79% !important;
+		margin: auto;
+
+	}
+	/*Section 2*/
+	.tituloSection2{
+		min-height: 100px;
+		font-size: 1.5em;
+		font-weight: bold;
+		border-bottom: 3px solid #B71C1C;
+	}
+	.cabeceraSection2{
+		min-height: 70px;
+
+	}
+	.contenedorListaSection2{
+
+	}
+	.textoPresentacion{
+		font-size: 22px;
+	}
+	.textoPresentacion span{
+		font-size: 25px;
+	}
+	.listaSection2{
+		font-size: 17px;
+     list-style-type: disc !important;
+     text-align: left;
+	}
+	.cajaSection2{
+			position: relative;
+			padding-top:  100px;
+	}
+	#versionPage {
+    position: fixed;
+    bottom: -28px;
+    color: #BFC1C1;
+    float: right;
+    font-size: 15px;
+    /* text-align: center; */
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    /* padding-right: 72px; */
+    padding-left: 43px;
+}
+nav .house {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    /* padding-right: 72px; */
+  
+}
